@@ -6,74 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-        <!-- or -->
         <link rel="stylesheet"
          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
          <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-        <title>E-COMMERCE NIKE</title>
+        <title>Machine's</title>
 </head>
 <body>
 
     <header>
-        <a href="#" class="logo"><i class='bx bxs-cube-alt' ></i>Nikebox</a>
+        <a href="#" class="logo">MachineBox</a>
 
         <ul class="navegação">
-            <li><a href="#">Visão Geral</a></li>
-            <li><a href="#">Teach Specs</a></li>
-            <li><a href="#">Reviews</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Decimal</a></li>
+            <li><a href="#">Binário</a></li>
+            <li><a href="#">Octal</a></li>
+            <li><a href="#">Hexadecimal</a></li>
         </ul>
 
         <div class="header-icons">
-            <i class='bx bx-cart'></i>
-            <div id="menu"><i class='bx bx-menu'></i></div>
+            <i class='bx bxs-contact'></i>
         </div>
     </header>
 
-    <section class="home">
-        <div class="home-img">
-            <img src="ImgProjetoNike/NikeRosa.png" class="one">
+    <div class="container">
+        <div class="div_bases">
+            <div class="div_bases_p">
+            <p>Binário</p>
+            <p>Deimal</p>
+            <p>Octal</p>
+            <p>Hexadecimal</p>
+        </div>
+         <div class="div_translate01">
+         </div>
         </div>
 
-        <div class="home-text">
-            <h1>Nike<br> Dunk Low Retro</h1>
-            <h5> JUST DO IT</h5>
-            <h3>$900.00</h3>
-            <a href="#" class="btn">Shop Now</a>
+        <<div class="div_bases">
+            <div class="div_bases_p">
+            <p>Binário</p>
+            <p>Deimal</p>
+            <p>Octal</p>
+            <p>Hexadecimal</p>
         </div>
-    </section>
-
-    <div class="main">
-        <div class="row">
-            <li><img src="ImgProjetoNike/NikeRosa.png" onclick="slider('ImgProjetoNike/NikeRosa.png')"></li>
-        </div>
-   
-        <div class="row2">
-            <li><img src="ImgProjetoNike/NikeMarrom.png" onclick="slider('ImgProjetoNike/NikeMarrom.png')"></li>
-        </div>
-  
-
-        <div class="row3">
-            <li><img src="ImgProjetoNike/NikeVermelho.png" onclick="slider('ImgProjetoNike/NikeVermelho.png')"></li>
-        </div>
+         <div class="div_translate02">
+         </div>
+        </div> 
     </div>
 
-    <script>
-        function slider (anything){
-            document.querySelector ('.one') .src = anything;
-        };
-
-        let menu = document.querySelector ('#menu-icon');
-        let navbar = document.querySelector ('.navbar');
-
-        menu.onclick = () => {
-            menu.classList.toggle ('bx-x');
-            navbar.classList.toggle ('open');
-        }
-    </script>
-    
+<script src="script.js"></script>
 </body>
 </html>
